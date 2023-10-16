@@ -84,6 +84,7 @@
 
 - Hotwire
 - chart.js
+- Tailwind CSS使用検討中
 
 ### Gem 
 
