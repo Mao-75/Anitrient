@@ -122,4 +122,3 @@
 [Figma](https://www.figma.com/file/i8MD2SjOKytjSFelaOaoEy/Anitrient%2F%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=dms9t12aRTovR5yX-1)
 
 ### ER図
-../Desktop/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-10-23%2020.21.55.png
