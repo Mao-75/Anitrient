@@ -120,3 +120,6 @@
 
 ### 画面遷移図
 https://www.figma.com/file/i8MD2SjOKytjSFelaOaoEy/Anitrient%2F%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=dms9t12aRTovR5yX-1
+
+### ER図
+https://drive.google.com/file/d/12ZpVPv97m-y4dvfoUTFBXCgooku1pQwO/view?usp=sharing
