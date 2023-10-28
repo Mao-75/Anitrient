@@ -122,3 +122,4 @@
 [Figma](https://www.figma.com/file/i8MD2SjOKytjSFelaOaoEy/Anitrient%2F%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=dms9t12aRTovR5yX-1)
 
 ### ER図
+<img width="1168" alt="スクリーンショット 2023-10-25 22 24 24" src="https://github.com/Mao-75/Anitrient/assets/126678249/e078a8a9-9dc7-452b-b0b1-53a56e478746">
