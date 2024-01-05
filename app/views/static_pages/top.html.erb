@@ -1,2 +1,26 @@
-<h1>StaticPages#top</h1>
-<p>Find me in app/views/static_pages/top.html.erb</p>
+<!-- hero section -->
+<section id="hero" class="hero d-flex align-items-center bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 d-flex flex-column justify-content-center">
+        <h1 data-aos="fade-up">Anitrientとは</h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">質問に答えていくだけでAIがあなたに合ったアニメを提案してくれるよ！</h2>
+        <div data-aos="fade-up" data-aos-delay="600">
+          <div class="text-center text-lg-start">
+            <%= link_to "#about", class: "btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" do %>
+              <span>ここから</span>
+              <i class="bi bi-arrow-right"></i>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <!-- アプリイメージ画像 air.pngとmonster.pngで迷い中-->
+      <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+        <%= image_tag "air.png", class: "img-fluid w-100 h-100", alt: "" %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 詳しい使用方法 -->
+<!-- ログイン後の機能の説明 -->
