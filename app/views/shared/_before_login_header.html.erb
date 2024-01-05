@@ -1,0 +1,39 @@
+<header>
+  <nav class="navbar navbar-expand-lg bg-primary-subtle fixed-top" id="navbar">
+    <div class="container">
+      <%= link_to "#", class: "navbar-brand" do %>
+        Anitrient
+      <% end %>
+
+    <button class='navbar-toggler' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto main-nav align-items-center">
+        <li class="nav-item">
+          <%= link_to "#home", class: "nav-link  active", "aria-current" => "page" do %>
+            <i class="bi bi-house"></i>Home
+          <% end %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "#course", class: "nav-link" do %>
+            <i class="bi bi-balloon"></i>About
+          <% end %>
+        </li>
+
+        <li class="nav-item">
+          <%= link_to "#" ,class: "nav-link" do %>
+            <i class="bi bi-person-plus"></i>Sign up
+          <% end %>
+        </li>
+      </ul>
+        <li class="nav-item">
+          <%= link_to "#", class: "nav-link"  do %>
+          <i class="bi bi-door-open"></i>Log in
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
