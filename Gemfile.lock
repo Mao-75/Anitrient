@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     autoprefixer-rails (10.4.16.0)
       execjs (~> 2)
+    base64 (0.2.0)
     bindex (0.8.1)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
@@ -81,11 +82,22 @@ GEM
     debug (1.9.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.12.0)
     execjs (2.9.1)
+    faraday (2.8.1)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphql (2.2.4)
+      racc (~> 1.4)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.2.3)
@@ -172,6 +184,7 @@ GEM
     redis (4.8.1)
     reline (0.4.1)
       io-console (~> 0.5)
+    ruby2_keywords (0.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -216,6 +229,9 @@ DEPENDENCIES
   bootsnap
   bootstrap (~> 5.3.2)
   debug
+  dotenv-rails
+  faraday
+  graphql
   importmap-rails
   jbuilder
   jquery-rails (~> 4.0)
